@@ -4,8 +4,10 @@ import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
 
+import android.content.Context;
+
 public class SugarRecord<T> {
-	public SugarRecord(Object ctx) {
+	public SugarRecord(Context ctx) {
 
 	}
 
