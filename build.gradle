@@ -19,3 +19,12 @@ dependencies {
 	compile fileTree(dir: 'libs', include: '*.jar')
 }
 
+version = '0.1'
+
+uploadArchives {
+	repositories {
+		flatDir {
+			dirs 'repos'
+		}
+	}
+}
